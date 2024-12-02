@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: https://schmalededomingo.de
 
-languageCode: bn
-title: "John's Blog"
+languageCode: de
+title: "Lennard's Blog"
 
 # Use Hugo modules to add theme
 module:
@@ -26,12 +26,12 @@ languages:
     title: "John's Blog"
     weight: 1
   bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+    languageCode: de
+    languageName: Deutsch
+    title: "Lennard's Blog"
     weight: 2
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: de
 
 
 # Allow raw html in markdown file
@@ -68,7 +68,7 @@ params:
     favicon: /images/site/favicon.png
 
   # GitHub repo of your site
-  gitRepo: https://github.com/hugo-toha/hugo-toha.github.io
+  gitRepo: https://github.com/lennardsc/website
   # Default branch of your Git repo
   gitBranch: main
 
@@ -153,11 +153,11 @@ params:
 
     # Enable Analytics
     analytics:
-      enabled: true
+      enabled: false
       services:
         # Google Analytics
         google:
-          id: G-H4LBG7NDFZ
+          id: 
         # # CounterDev
         # counterDev:
         #   id: <your counterdev id>
@@ -174,8 +174,8 @@ params:
       enable: false
       services:
         kofi:
-          user: hossainemruz
-          text: Tip Me
+          user: 
+          text: 
           textColor: '#f9fafc'
           backgroundColor: '#248aaa'
         # buymeacoffee:

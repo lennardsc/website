@@ -1,0 +1,68 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Consultant
+# your company information
+company:
+  name: msg for banking ag
+  url: "https://www.msg.group"
+
+# your resume. this file path should be relative to you "static" directory
+# Dreprecated. Use resourceLinks instead.
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate data engineer with 5 years of working experience. I built ELT-Pipelines using Python. My datawarehouses help banks to undestand their data better. Sometimes, I work on some data sciences topics.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "info@schmalededomingo.de"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "lennardschmalededomingo"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+- type: certification
+  name: Microsoft Certified Azure Data Fundamentals
+  url: "https://learn.microsoft.com/de-de/users/lennardschmalededomingo-7837/credentials/b9991b1cbfd7819b?ref=https%3A%2F%2Fwww.linkedin.com%2F"
+  badge: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
+
+#- type: certification
+  #name: Istio and IBM Cloud Kubernetes Service
+  #url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+  #badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+
+- #type: certification
+  #name: Artificial Intelligence and Machine Learning
+  #url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
+  #badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+
+- type: soft-skill-indicator
+  name: Team Work
+  percentage: 90
+  color: yellow
+
+- type: soft-skill-indicator
+  name: Hard Working
+  percentage: 85
+  color: orange
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
