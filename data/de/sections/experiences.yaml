@@ -33,7 +33,7 @@ experiences:
   positions:
   - designation: BI/Data Analyst
     start: September 2022
-    end: MOctober 2023
+    end: October 2023
     responsibilities:
     - Development of ETL routes and ETL processes with Python in AWS Glue.
     - Creation of analysis of the product usage of credit cards in Python and presentation in MS PowerBI for product management.
