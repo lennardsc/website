@@ -41,6 +41,6 @@ jobs:
           username: ${{ secrets.FTPS_USER }}
           password: ${{ secrets.FTPS_PASSWORD }}
           local-dir: ./public/
-          remote-dir: /schmalededomingo.de/httpdocs/
+          server-dir: ./schmalededomingo.de/httpdocs/
           protocol: ftps
           port: 21
