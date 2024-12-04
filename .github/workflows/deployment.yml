@@ -3,47 +3,29 @@ name: Deploy Hugo site to Netcup Webspace
 
 on:
   push:
-    branches: ["main"]
-  workflow_dispatch:
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
-defaults:
-  run:
-    shell: bash
-
+    branches:
+      - main
+ 
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.128.0
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          submodules: recursive
-
-      - name: Update Submodules
-        run: |
-          git submodule sync --recursive
-          git submodule update --init --recursive
 
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install dependencies
+        run: npm install
 
-      - name: Install theme dependencies
-        run: |
-          npm install
-        working-directory: themes/toha
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
 
       - name: Build with Hugo
         env:
