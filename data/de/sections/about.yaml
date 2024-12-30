@@ -41,10 +41,10 @@ badges:
   url: "https://learn.microsoft.com/de-de/users/lennardschmalededomingo-7837/credentials/b9991b1cbfd7819b?ref=https%3A%2F%2Fwww.linkedin.com%2F"
   badge: "https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg"
 
-#- type: certification
-  #name: Istio and IBM Cloud Kubernetes Service
-  #url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  #badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+- type: certification
+  name: Dremio Verified Lakehouse Associate
+  url: "https://university.dremio.com/course/data-lakehouses"
+  badge: "https://images.credly.com/images/12243391-8d11-4265-93b3-c82d8479f681/blob"
 
 #- type: certification
   #name: Artificial Intelligence and Machine Learning
