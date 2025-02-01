@@ -46,10 +46,10 @@ badges:
   url: "https://university.dremio.com/course/data-lakehouses"
   badge: "https://images.credly.com/images/12243391-8d11-4265-93b3-c82d8479f681/blob"
 
-#- type: certification
-  #name: Artificial Intelligence and Machine Learning
-  #url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  #badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+- type: certification
+  name: Dremio Verified Data Analyst
+  url: "https://university.dremio.com/verified-data-analyst"
+  badge: "https://images.credly.com/images/dbf2afb0-977d-4080-aa60-c8b35e713583/blob"
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
