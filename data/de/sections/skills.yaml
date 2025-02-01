@@ -46,3 +46,8 @@ skills:
   summary: "Experienced with git-based development. Mostly, use Gitlab. Also, have experience in working with Github."
   categories: ["basic"]
   url: "https://git-scm.com/"
+- name: Dremio
+  logo: /images/sections/skills/dremio.svg
+  summary: "Capable of creating data pipelines for the Datalakehouse Dremio."
+  categories: ["basic"]
+  url: "https://git-scm.com/"
