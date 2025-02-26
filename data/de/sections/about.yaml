@@ -51,6 +51,11 @@ badges:
   url: "https://university.dremio.com/verified-data-analyst"
   badge: "https://images.credly.com/images/dbf2afb0-977d-4080-aa60-c8b35e713583/blob"
 
+- type: certification
+  name: Databricks Accredited Databricks Fundamentals
+  url: ""
+  badge: /images/sections/skills/databricks.png
+
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
