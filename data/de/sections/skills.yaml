@@ -53,6 +53,6 @@ skills:
   url: "https://dremio.com/"
 - name: Databricks
   logo: /images/sections/skills/databrickslogo.svg
-  summary: "Capable of creating data pipelines for the Datalakehouse Dremio."
+  summary: "Capable of using the Databricks Plattform."
   categories: ["basic"]
   url: "https://databricks.com/"
