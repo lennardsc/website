@@ -15,8 +15,8 @@ degrees:
   timeframe: 2017-2019
   institution:
     name: Hochschule Fresenius
-    url: "#"
-    logo: /images/sections/education/tech_college.png
+    url: "https://www.hs-fresenius.de/"
+    logo: /images/sections/education/HSF-Logo.svg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/tech_college.png
 
@@ -25,7 +25,7 @@ degrees:
   timeframe: 2014-2017
   institution:
     name: Hochschule Fresenius
-    url: "#"
-    logo: /images/sections/education/university.jpg
+    url: "https://www.hs-fresenius.de/"
+    logo: /images/sections/education/HSF-Logo.svg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
