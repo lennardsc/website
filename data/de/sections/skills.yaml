@@ -50,4 +50,9 @@ skills:
   logo: /images/sections/skills/dremio.svg
   summary: "Capable of creating data pipelines for the Datalakehouse Dremio."
   categories: ["basic"]
-  url: "https://git-scm.com/"
+  url: "https://dremio.com/"
+- name: Databricks
+  logo: /images/sections/skills/databrickslogo.svg
+  summary: "Capable of creating data pipelines for the Datalakehouse Dremio."
+  categories: ["basic"]
+  url: "https://databricks.com/"
