@@ -56,6 +56,11 @@ badges:
   url: "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/134973493"
   badge: "https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/134973493"
 
+- type: certification
+  name: Exasol Certified Associate
+  url: "https://exacademy.exasol.com/courses/course-v1:Exasol+ESSENTIALS+X/about"
+  badge: /images/sctions/experiences/exasol.png
+
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
 #   name: Example 1
