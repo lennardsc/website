@@ -61,6 +61,6 @@ skills:
 
 - name: Exasol
   logo: /images/sections/skills/exasol-logo-dark.svg
-  summary: "Capable of using and creating a DWH with the Exasol Analitcs Database."
+  summary: "Capable of using and creating a DWH with the Exasol Analytics Database."
   categories: ["basic"]
   url: "https://exasol.com/"
