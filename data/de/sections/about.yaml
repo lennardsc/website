@@ -19,7 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate data engineer with 5 years of working experience. I built ELT-Pipelines using Python. My datawarehouses help banks to undestand their data better. Sometimes, I work on some data sciences topics.'
+summary: 'I am a passionate data engineer with 5 years of working experience. I built ELT-Pipelines using Python. My Datalakeshouses help banks and financial institutions to improve decision making. Sometimes, I work on some data sciences topics.'
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -45,11 +45,6 @@ badges:
   name: Dremio Verified Lakehouse Associate
   url: "https://university.dremio.com/course/data-lakehouses"
   badge: "https://images.credly.com/images/12243391-8d11-4265-93b3-c82d8479f681/blob"
-
-- type: certification
-  name: Dremio Verified Data Analyst
-  url: "https://university.dremio.com/verified-data-analyst"
-  badge: "https://images.credly.com/images/dbf2afb0-977d-4080-aa60-c8b35e713583/blob"
 
 - type: certification
   name: Databricks Accredited Databricks Fundamentals
