@@ -59,7 +59,7 @@ badges:
 - type: certification
   name: Exasol Certified Associate
   url: "https://exacademy.exasol.com/courses/course-v1:Exasol+ESSENTIALS+X/about"
-  badge: /images/sctions/experiences/exasol.png
+  badge: "https://exasol.my.site.com/servlet/rtaImage?eid=ka0aV0000006Ant&feoid=00N9W000000OqU0&refid=0EMaV000006Rl93"
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
