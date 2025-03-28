@@ -57,7 +57,15 @@ badges:
   badge: "https://exasol.my.site.com/servlet/rtaImage?eid=ka0aV0000006Ant&feoid=00N9W000000OqU0&refid=0EMaV000006Rl93"
 
 # you can also provide color code instead of the color name
-# - type: soft-skill-indicator
-#   name: Example 1
-#   percentage: 75
-#   color: "#00adb5"
+- type: soft-skill-indicator
+   name: Teamwork
+   percentage: 85
+   color: "#808080"
+- type: soft-skill-indicator
+   name: Analytical Thinking
+   percentage: 95
+   color: "#0000FF"
+- type: soft-skill-indicator
+   name: Curiosity
+   percentage: 95
+   color: "#FFA500"
